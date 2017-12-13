@@ -33,6 +33,6 @@ app.post('/api/messages', (req, res) => {
   });
 });
 
-const port = process.nev.PORT || 3001;
+const port = process.env.PORT || 3001;
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
