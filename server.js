@@ -2,7 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
-const Message = require('./models/message');
+const Message = require('./models/Message');
 
 app.use(bodyParser.json());
 
